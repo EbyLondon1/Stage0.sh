@@ -1,3 +1,17 @@
+ebereamadi24@cloudshell
+mkdir ebere
+mkdir biocomputing && cd biocomputing
+wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna
+wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
+wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk 
+mv wildtype.fna ../ebere/
+rm wildtype.gbk.1
+grep 'tatatata' wildtype.fna
+grep 'tatatata' wildtype.fna > mutant
+clear && history
+ls && ls ../biocomputing
+exit
+
 sudo apt install figlet
 figlet ebere
 mkdir compare && cd compare
