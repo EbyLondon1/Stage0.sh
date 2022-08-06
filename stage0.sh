@@ -1,3 +1,24 @@
+#! /usr/bin/bash
+string="Ebere"
+echo $string
+function bash {
+  local string="Amadi"
+  echo $string
+}
+bash
+./test.sh
+chmod +x test.sh
+./test.sh
+
+nano test1.sh
+#! /usr/bin/bash
+var_A="Ebere"
+var_B="Amadi"
+echo $var_A$var_B
+./test1.sh
+chmod +x test.sh
+./test1.sh
+
 ebereamadi24@cloudshell
 mkdir ebere
 mkdir biocomputing && cd biocomputing
